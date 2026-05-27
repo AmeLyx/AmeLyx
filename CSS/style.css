@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Myfont';
+    src: url('../FONTS/ChubzyFunk.ttf');
+}
+
+.fuente {
+    font-family: 'Myfont', sans-serif; /* Se añade sans-serif como respaldo */
+    
+    
+    /* Mínimo: 2.5rem (celulares), Flexible: 6vw del ancho de pantalla, Máximo: 5.5rem (monitores grandes) */
+    font-size: clamp(2.5rem, 6vw, 5.5rem); 
+    color: #f1b715; 
+    font-weight: bold;
+    text-transform: uppercase; /* Mantiene todo en mayúsculas */
+    letter-spacing: -1px;      /* Junta un poquito las letras para que se vea estético */
+    line-height: 1.1;          /* Evita que si el título se divide en dos renglones, queden muy separados */
+}
+
